@@ -1,7 +1,7 @@
 #README.MD
 
 ## Instructions to run the run_analysis.R
-## It is assumed here that you already have the dataset required for this analysis. In case if you do not have the required files, please download and unzip the dataset from link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into your RStudio/R working directory
+* It is assumed here that you already have the dataset required for this analysis. In case if you do not have the required files, please download and unzip the dataset from link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into your RStudio/R working directory
 
 * Open the run_analysis.R in RStudio
 
