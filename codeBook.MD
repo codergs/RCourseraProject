@@ -1,4 +1,4 @@
-###Code book for Samsung wearble data set
+###Code book for Samsung wearable data set
 
 ######Subject
 
