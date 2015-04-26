@@ -5,12 +5,12 @@ Represents volunteers who took part in the activies. nRange from 1 to 30.
 * Activity
 
 Task performed during the activity. 
-1 WALKING 
-2 WALKING_UPSTAIRS 
-3 WALKING_DOWNSTAIRS 
-4 SITTING 
-5 STANDING 
-6 LAYING
+*1 WALKING 
+*2 WALKING_UPSTAIRS 
+*3 WALKING_DOWNSTAIRS 
+*4 SITTING 
+*5 STANDING 
+*6 LAYING
 
 * timeBodyAccelMeanX
 
