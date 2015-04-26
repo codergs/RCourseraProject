@@ -1,11 +1,8 @@
-# Imported Packages 
-library(plyr)
-library(reshape2)
-
 
 # Read the activity_labels file using read.table function
 labels <- read.table("activity_labels.txt",stringsAsFactors=FALSE,col.names=c("id","label"))
-labels <- labels[,2]                     
+labels <- labels[,2]  
+
 
 # Read the features file using read.table function
 colNames <- read.table("features.txt",stringsAsFactors=FALSE,col.names=c("id","name"),check.names=FALSE)
@@ -27,10 +24,25 @@ y_Test <- read.table("./test/y_test.txt",stringsAsFactors=FALSE,col.names="Act",
 
 # Find column names that have mean and std as sub-string 
 colNames <- colNames[grep('mean|std',colNames$name),]
+bad<-grepl("meanFreq",colNames)
+newColNames<-colNames<-colNames[!bad]
+newColNames<-gsub("tBody","timeBody",newColNames)
+newColNames<-gsub("-mean\\(\\)","Mean",newColNames)
+newColNames<-gsub("-std\\(\\)","Std",newColNames)
+newColNames<-gsub("Acc","Accel",newColNames)
+newColNames<-gsub("-Z","Z",newColNames)
+newColNames<-gsub("-X","X",newColNames)
+newColNames<-gsub("-Y","Y",newColNames)
+newColNames<-gsub("fBody","freqBody",newColNames)
+newColNames<-gsub("freqBodyBody","freqBody",newColNames)
 
 # Droping column names that aren't in colNames for x_Train and y_Train
 x_Train <- x_Train[,names(x_Train) %in% colNames]
 x_Test  <- x_Test [,names(x_Test)  %in% colNames]
+
+# Giving descriptive names to variables
+names(x_Train)<-newColNames
+names(x_Test)<-newColNames
 
 # Column binding Test and Train 
 subject_Test  <-  cbind (subject_Test,y_Test)
@@ -45,6 +57,7 @@ subject_Test$Act <-NULL
 subject_Train$Act <-NULL
 rm(y_Test)
 rm(y_Train)
+rm(bad)
 
 # Column binding Test and Train 
 subject_Test  <-  cbind (subject_Test,x_Test)
@@ -53,6 +66,7 @@ subject_Train <-  cbind (subject_Train,x_Train)
 # Cleaning temporary variables
 rm(x_Test)
 rm(x_Train)
+rm(labels)
 
 # Row binding subject_Test and subject_Train data frames in one
 tidyData <- rbind.fill(subject_Test, subject_Train)
@@ -68,5 +82,13 @@ tidyData<-arrange(tidyData,Subject)
 tidy<-melt(tidyData,id=c("Subject","Activity"))
 tidy<-dcast(Subject + Activity ~ variable, data = tidy, fun = mean)
 
-#data %>% group_by(column1, ...) %>% summarise_each(funs(mean))
-#z<-ddply(tidyData, .(Subject, Activity), numcolwise(mean))
+# Giving descriptive names to tidy data set
+names(tidy)<-c("Subject","Activity",paste("mean(",newColNames,")",sep=""))
+
+# Removing temporary variables 
+rm(newColNames)
+rm(colNames)
+
+# Write tidy data frame to tidy.txt
+write.table(tidy,"tidy.txt",row.names=FALSE)
+
