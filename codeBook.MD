@@ -1,10 +1,10 @@
 ###Code book for Samsung wearble data set
 
-#######Subject
+######Subject
 
 Represents volunteers who took part in the activies. nRange from 1 to 30.
 
-#######Activity
+######Activity
 
 Task performed during the activity. 
 * WALKING 
@@ -14,267 +14,267 @@ Task performed during the activity.
 * STANDING 
 * LAYING
 
-#######timeBodyAccelMeanX
+######timeBodyAccelMeanX
 
  Mean of Time Domain Body acceleration along X axis
 
-#######timeBodyAccelMeanY
+######timeBodyAccelMeanY
 
  Mean of Time Domain Body acceleration along Y axis
 
-#######timeBodyAccelMeanZ
+######timeBodyAccelMeanZ
 
  Mean of Time Domain Body acceleration along Z axis
 
-#######timeBodyAccelStdX
+######timeBodyAccelStdX
 
  Standard deviation value of Time Domain Body acceleration along X axis
 
-#######timeBodyAccelStdY
+######timeBodyAccelStdY
 
  Standard deviation value of Time Domain Body acceleration along y axis
 
-#######timeBodyAccelStdZ
+######timeBodyAccelStdZ
 
  Standard deviation value of Time Domain Body acceleration along Z axis
 
-#######timeGravityAccelMeanX
+######timeGravityAccelMeanX
 
  Mean of Time Domain Gravity acceleration along X axis
 
-#######timeGravityAccelMeanY
+######timeGravityAccelMeanY
 
  Mean of Time Domain Gravity acceleration along Y axis
 
-#######timeGravityAccelMeanZ
+######timeGravityAccelMeanZ
 
  Mean of Time Domain Gravity acceleration along Z axis
 
-#######timeGravityAccelStdX
+######timeGravityAccelStdX
 
  Standard deviation value of Time Domain Gravity acceleration along X axis
 
-#######timeGravityAccelStdY
+######timeGravityAccelStdY
 
  Standard deviation value of Time Domain Gravity acceleration along Y axis
 
-#######timeGravityAccelStdZ
+######timeGravityAccelStdZ
 
  Standard deviation value of Time Domain Gravity acceleration along Z axis
 
-#######timeBodyAccelJerkMeanX
+######timeBodyAccelJerkMeanX
 
  Mean of Time Domain Body acceleration jerk signal along X axis
 
-#######timeBodyAccelJerkMeanY
+######timeBodyAccelJerkMeanY
 
  Mean of Time Domain Body acceleration jerk signal along Y axis
 
-#######timeBodyAccelJerkMeanZ
+######timeBodyAccelJerkMeanZ
 
  Mean of Time Domain Body acceleration jerk signal along Z axis
 
-#######timeBodyAccelJerkStdX
+######timeBodyAccelJerkStdX
 
  Standard deviation value of Time Domain Body acceleration jerk signal along X axis
 
-#######timeBodyAccelJerkStdY
+######timeBodyAccelJerkStdY
 
  Standard deviation value of Time Domain Body acceleration jerk signal along Y axis
 
-#######timeBodyAccelJerkStdZ
+######timeBodyAccelJerkStdZ
 
  Standard deviation value of Time Domain Body acceleration jerk signal along Z axis
 
-#######timeBodyGyroMeanX
+######timeBodyGyroMeanX
 
  Mean of Time Domain Body gyroscope 3-axial raw signals along X axis
 
-#######timeBodyGyroMeanY
+######timeBodyGyroMeanY
 
  Mean of Time Domain Body gyroscope 3-axial raw signals along Y axis
 
-#######timeBodyGyroMeanZ
+######timeBodyGyroMeanZ
 
  Mean of Time Domain Body gyroscope 3-axial raw signals along Z axis
 
-#######timeBodyGyroStdX
+######timeBodyGyroStdX
 
  Standard deviation value of Time Domain Body gyroscope 3-axial raw signals along X axis
 
-#######timeBodyGyroStdY
+######timeBodyGyroStdY
 
  Standard deviation value of Time Domain Body gyroscope 3-axial raw signals along Y axis
 
-#######timeBodyGyroStdZ
+######timeBodyGyroStdZ
 
  Standard deviation value of Time Domain Body gyroscope 3-axial raw signals along Z axis
 
-#######timeBodyGyroJerkMeanX
+######timeBodyGyroJerkMeanX
 
  Mean of Time Domain Body gyroscope 3-axial jerk signals along X axis
 
-#######timeBodyGyroJerkMeanY
+######timeBodyGyroJerkMeanY
 
  Mean of Time Domain Body gyroscope 3-axial jerk signals along Y axis
 
-#######timeBodyGyroJerkMeanZ
+######timeBodyGyroJerkMeanZ
 
  Mean of Time Domain Body gyroscope 3-axial jerk signals along Z axis
 
-#######timeBodyGyroJerkStdX
+######timeBodyGyroJerkStdX
 
  Standard deviation value of Time Domain Body gyroscope 3-axial jerk signals along X axis
 
-#######timeBodyGyroJerkStdY
+######timeBodyGyroJerkStdY
 
  Standard deviation value of Time Domain Body gyroscope 3-axial jerk signals along Y axis
 
-#######timeBodyGyroJerkStdZ
+######timeBodyGyroJerkStdZ
 
  Standard deviation value of Time Domain Body gyroscope 3-axial jerk signals along Z axis
 
-#######timeBodyAccelMagMean
+######timeBodyAccelMagMean
 
  Mean of Time Domain Body acceleration signal magnitude along three-dimensions
 
-#######timeBodyAccelMagStd
+######timeBodyAccelMagStd
 
  Standard deviation value of Time Domain Body acceleration signal magnitude along three-dimensions
 
-#######timeGravityAccelMagMean
+######timeGravityAccelMagMean
 
  Mean of Time Domain gravity acceleration signal magnitude along three-dimensions
 
-#######timeGravityAccelMagStd
+######timeGravityAccelMagStd
 
  Standard deviation value of Time Domain gravity acceleration signal magnitude along three-dimensions
 
-#######timeBodyAccelJerkMagMean
+######timeBodyAccelJerkMagMean
 
  Mean of Time Domain Body acceleration jerk signal magnitude along three-dimensions
 
-#######timeBodyAccelJerkMagStd
+######timeBodyAccelJerkMagStd
 
  Standard deviation of Time Domain Body acceleration jerk signal magnitude along three-dimensions
 
-#######timeBodyGyroMagMean
+######timeBodyGyroMagMean
 
  Mean of Time Domain Body gyroscope signal magnitude along three-dimensions
 
-#######timeBodyGyroMagStd
+######timeBodyGyroMagStd
 
  Standard deviation of Time Domain gyroscope acceleration signal magnitude along three-dimensions
 
-#######timeBodyGyroJerkMagMean
+######timeBodyGyroJerkMagMean
 
  Mean of Time Domain Body gyroscope jerk signal magnitude along three-dimensions
 
-#######timeBodyGyroJerkMagStd
+######timeBodyGyroJerkMagStd
 
  Standard deviation value of Time Domain Body gyroscope jerk signal magnitude along three-dimensions
 
-#######freqBodyAccelMeanX
+######freqBodyAccelMeanX
 
  Mean of Frequency Domain Body acceleration signal along X axis
 
-#######freqBodyAccelMeanY
+######freqBodyAccelMeanY
 
  Mean of Frequency Domain Body acceleration signal along Y axis
 
-#######freqBodyAccelMeanZ
+######freqBodyAccelMeanZ
 
  Mean of Frequency Domain Body acceleration signal along Z axis
 
-#######freqBodyAccelStdX
+######freqBodyAccelStdX
 
  Standard deviation value of Frequency Domain Body acceleration signal along X axis
 
-#######freqBodyAccelStdY
+######freqBodyAccelStdY
 
  Standard deviation value of Frequency Domain Body acceleration signal along Y axis
 
-#######freqBodyAccelStdZ
+######freqBodyAccelStdZ
 
  Standard deviation value of Frequency Domain Body acceleration signal along Z axis
 
-#######freqBodyAccelJerkMeanX
+######freqBodyAccelJerkMeanX
 
  Mean of Frequency Domain Body acceleration jerk signal along X axis
 
-#######freqBodyAccelJerkMeanY
+######freqBodyAccelJerkMeanY
 
  Mean of Frequency Domain Body acceleration jerk signal along Y axis
 
-#######freqBodyAccelJerkMeanZ
+######freqBodyAccelJerkMeanZ
 
  Mean of Frequency Domain Body acceleration jerk signal along Z axis
 
-#######freqBodyAccelJerkStdX
+######freqBodyAccelJerkStdX
 
  Standard deviation value of Frequency Domain Body acceleration jerk signal along X axis
 
-#######freqBodyAccelJerkStdY
+######freqBodyAccelJerkStdY
 
  Standard deviation value of Frequency Domain Body acceleration jerk signal along Y axis
 
-#######freqBodyAccelJerkStdZ
+######freqBodyAccelJerkStdZ
 
  Standard deviation value of Frequency Domain Body acceleration jerk signal along Z axis
 
-#######freqBodyGyroMeanX
+######freqBodyGyroMeanX
 
  Mean of Frequency Domain Body gyroscope signal magnitude along three-dimensions
 
-#######freqBodyGyroMeanY
+######freqBodyGyroMeanY
 
  Mean of Frequency Domain Body gyroscope signal along Y axis
 
-#######freqBodyGyroMeanZ
+######freqBodyGyroMeanZ
 
  Mean of Frequency Domain Body gyroscope signal along Z axis
 
-#######freqBodyGyroStdX
+######freqBodyGyroStdX
 
  Standard devviation value of Frequency Domain Body gyroscope signal along X axis
 
-#######freqBodyGyroStdY
+######freqBodyGyroStdY
 
  Standard devviation value of Frequency Domain Body gyroscope signal along Y axis
 
-#######freqBodyGyroStdZ
+######freqBodyGyroStdZ
 
  Standard devviation value of Frequency Domain Body gyroscope signal along Z axis
 
-#######freqBodyAccelMagMean
+######freqBodyAccelMagMean
 
  Mean of Frequency Domain Body acceleration signal magnitude along three-dimensions
 
-#######freqBodyAccelMagStd
+######freqBodyAccelMagStd
 
  Standard deviation value of Frequency Domain Body acceleration signal magnitude along three-dimensions
 
-#######freqBodyAccelJerkMagMean
+######freqBodyAccelJerkMagMean
 
  Mean of Frequency Domain Body acceleration jerk signal magnitude along three-dimensions
 
-#######freqBodyAccelJerkMagStd
+######freqBodyAccelJerkMagStd
 
  Standard deviation value of Frequency Domain Body acceleration jerk signal magnitude along three-dimensions
 
-#######freqBodyGyroMagMean
+######freqBodyGyroMagMean
 
  Mean of Frequency Domain Body gyroscope signal magnitude along three-dimensions
 
-#######freqBodyGyroMagStd
+######freqBodyGyroMagStd
 
  Standard deviation of Frequency Domain Body gyroscope signal magnitude along three-dimensions
 
-#######freqBodyGyroJerkMagMean
+######freqBodyGyroJerkMagMean
 
  Mean of Frequency Domain Body gyroscope jerk signal magnitude along three-dimensions
 
-#######freqBodyGyroJerkMagStd
+######freqBodyGyroJerkMagStd
 
  Standard deviation of Frequency Domain Body gyroscope jerk signal magnitude along three-dimensions
 
