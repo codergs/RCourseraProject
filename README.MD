@@ -1,4 +1,5 @@
 #README.MD
+This is a course project for Getting and Cleanning Data online course offered on COURSERA by Johns Hopkings University. As a part of program requirement one is suppose to clean a samasung wearable "UCI HAR Dataset", and present in a tidy format. Below are the instructions on how to use the R script to achieve the project goals. 
 
 ## Instructions to run the run_analysis.R
 * It is assumed here that you already have the dataset required for this analysis. In case if you do not have the required files, please download and unzip the dataset from link https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into your RStudio/R working directory
